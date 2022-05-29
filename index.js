@@ -9,9 +9,9 @@ let last_transaction_id = ""
 
 let summary = {}
 
-let transactions = require('./test.json')
+// let transactions = require('./test.json')
 
-let i = 0;
+// let i = 0;
 
 const TeleBot = require('telebot');
 const bot = new TeleBot(token);
@@ -108,7 +108,7 @@ bot.on('/scan', (msg) => {
         }
       }
 
-      i ++;
+      // i ++;
       })
   }, 2000);
 });
